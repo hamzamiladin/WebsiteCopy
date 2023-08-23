@@ -4,8 +4,8 @@ import { Navbar, Foundation, Hero, Media, Donation, Footer, Partners} from "./co
 const App = () => {
     return (
         <div className={"bg-primary w-full overflow-hidden"}>
-            <div className={`${styles.paddingX} ${styles.flexVCenter}`}>
-                <div className={`${styles.boxWidth}`}>
+            <div className={`pl-10 ${styles.flexBetween}`}>
+                <div className={`xl:max-w-[1700px] w-full`}>
                     <Navbar />
                 </div>
             </div>
@@ -15,13 +15,14 @@ const App = () => {
                     <Hero />
                 </div>
             </div>
-            <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+            <div className={`bg-yellow ${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Foundation />
-                    <Donation />
-                    <Media />
+                </div>
+            </div>
+            <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+                <div className={`${styles.boxWidth}`}>
                     <Partners />
-                    <Footer />
                 </div>
             </div>
         </div>

@@ -5,7 +5,8 @@ const styles = {
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
     flexCenter: "flex justify-center items-center",
-    flexVCenter: "flex items-center",
+    flexVCenter: "flex items-end",
+    flexBetween: "flex justify-between items-center",
     flexStart: "flex justify-center items-start",
 
     paddingX: "sm:px-16 px-6",
@@ -14,6 +15,9 @@ const styles = {
 
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
+    tweetContainer: "w-full max-w-[500px]",
+
 };
 
 export const layout = {
@@ -24,6 +28,13 @@ export const layout = {
     sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
 
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+
+};
+
+export const mediaQueries = {
+    '@media (max-width: 768px)': {
+        tweetContainer: "max-w-full",
+    }
 };
 
 export default styles;
