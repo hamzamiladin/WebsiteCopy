@@ -22,4 +22,5 @@ Again, please consider visiting the official website and support them in any way
 Thank you!
 
 
-![image](https://github.com/hamzamiladin/WebsiteCopy/assets/117471235/0c0bf91b-333b-4dd8-b47a-571a300f4624)
+![image](https://github.com/hamzamiladin/WebsiteCopy/assets/117471235/b270782d-9261-466d-b2a4-120e1141ff59)
+
